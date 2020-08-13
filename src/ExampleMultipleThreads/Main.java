@@ -35,10 +35,15 @@ class CountDown{
                 color=ANSI_GREEN;
                 break;
         }
-
-        for (i=10;i>0;i--){
-            System.out.println(color + Thread.currentThread().getName()+ ": i=" + i);
+        //Synchronization of block od statement
+        synchronized (this){
+            for (i=10;i>0;i--){
+                System.out.println(color + Thread.currentThread().getName()+ ": i=" + i);
+            }
         }
+/*        for (i=10;i>0;i--){
+            System.out.println(color + Thread.currentThread().getName()+ ": i=" + i);
+        }*/
     }
 }
 
