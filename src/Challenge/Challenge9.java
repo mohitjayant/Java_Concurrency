@@ -1,4 +1,4 @@
-package Challenge1_2;
+package Challenge;
 
 
 public class Challenge9 {
