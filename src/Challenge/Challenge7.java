@@ -1,4 +1,4 @@
-package Challenge1_2;
+package Challenge;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
